@@ -7,6 +7,66 @@ html {
     box-sizing: border-box;
     height: 100%;
     font-family: sans-serif;
+    background-image: url(img/pattern-bg.jpg);
+    background-size: cover;
+}
+
+body {
+    max-width: 100%;
+
 }
 
 
+.top-nav {
+    max-width: 100%;
+    border: green 1px solid;
+    display: flex;
+}
+
+.nav-button {
+    border: purple 1px solid;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.about-full {
+    background-image: url(img/about-fullsprite.png);
+    width: 364px;
+    height: 200px;
+}
+
+.buy-full {
+    background-image: url(img/buy-fullsprite);
+    width: 355px;
+    height: 195px;
+    background-size: 100%;
+
+}
+
+.inspiration-full {
+    background-image: url(img/inspiration-fullsprite);
+    width: 362px;
+    height: 205px;
+}
+
+.cooking-full {
+    width: 358px;
+    height: 206px;
+    background-image: url(img/cooking-fullsprite);
+    background-size: cover;
+}
+
+.full-logo {
+    border: 1px solid red;
+}
+
+.full-logo img {
+    max-height: 25%;
+}
+
+.nav-link:hover {
+    background-position-y: center;
+}
