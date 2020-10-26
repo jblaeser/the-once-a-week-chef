@@ -8,7 +8,8 @@ html {
     height: 100%;
     font-family: sans-serif;
     background-image: url(img/pattern-bg.jpg);
-    background-size: cover;
+    background-size: 100%;
+
 }
 
 body {
@@ -19,13 +20,14 @@ body {
 
 .top-nav {
     max-width: 100%;
-    border: green 1px solid;
     display: flex;
+    justify-content: space-around;
 }
 
 .nav-button {
-    border: purple 1px solid;
-    height: 206px;
+    width: 18%;
+    height: 0;
+    padding-top: 5.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,29 +36,27 @@ body {
 
 .about-full {
     background-image: url(img/about-fullsprite.png);
-    width: 364px;
-    height: 200px;
+    padding-bottom: 55.5%;
+
 }
 
 .buy-full {
     background-image: url(img/buy-fullsprite);
-    width: 355px;
-    height: 195px;
-    background-size: 100%;
+    padding-bottom: 55.15%;
 
 }
 
 .inspiration-full {
     background-image: url(img/inspiration-fullsprite);
-    width: 362px;
-    height: 205px;
+    padding-bottom: 56.85%;
+
+
 }
 
 .cooking-full {
-    width: 358px;
-    height: 206px;
     background-image: url(img/cooking-fullsprite);
-    background-size: cover;
+    padding-bottom: 57.3%;
+
 }
 
 .full-logo {
@@ -67,6 +67,14 @@ body {
     max-height: 25%;
 }
 
+.nav-link {
+    width: 100%;
+    height: 0;
+    background-position: 0 0;
+    background-size: 100%;
+    display:block;
+}
+
 .nav-link:hover {
-    background-position-y: center;
+    background-position-y: 50%;
 }
