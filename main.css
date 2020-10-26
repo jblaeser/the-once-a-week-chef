@@ -17,7 +17,6 @@ body {
 
 }
 
-
 .top-nav {
     max-width: 100%;
     display: flex;
@@ -36,7 +35,7 @@ body {
 
 .about-full {
     background-image: url(img/about-fullsprite.png);
-    padding-bottom: 55.5%;
+    padding-bottom: 55.1%;
 
 }
 
@@ -59,13 +58,6 @@ body {
 
 }
 
-.full-logo {
-    border: 1px solid red;
-}
-
-.full-logo img {
-    max-height: 25%;
-}
 
 .nav-link {
     width: 100%;
@@ -73,8 +65,51 @@ body {
     background-position: 0 0;
     background-size: 100%;
     display:block;
+    background-repeat: no-repeat;
 }
 
 .nav-link:hover {
-    background-position-y: 50%;
+    background-position-y: 100%;
+}
+
+.logo-img {
+    width: 100%;
+    padding-top: 40%;
+}
+
+
+.about-small {
+    background-image: url(img/about-smallsprite);
+    padding-bottom: 18.25%;
+
+}
+
+.buy-small {
+    background-image: url(img/buy-smallsprite);
+    padding-bottom: 19.4%;
+
+}
+
+.inspiration-small {
+    background-image: url(img/inspiration-smallsprite);
+    padding-bottom: 19.4%;
+
+
+}
+
+.cooking-small {
+    background-image: url(img/cooking-smallsprite);
+    padding-bottom: 18.5%;
+
+}
+
+.name-img {
+    width: 70%;
+    margin: auto;
+    padding-top: 10%;
+    display: block;
+}
+
+.active {
+    background-position-y: 100%;
 }
