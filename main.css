@@ -184,3 +184,24 @@ body {
 .whatscooking-link a:hover {
     color: #faa950;
 }
+
+/*whats cooking page*/
+
+.whatscooking-text {
+    margin-top: 6.5em;
+    text-align: center;
+    color: #444;
+}
+
+.whatscooking-text h2 {
+    font-size: 4em;
+}
+
+.whatscooking-text h4 {
+    font-size: 2em;
+}
+
+.gallery-container {
+    margin: 1.3em auto;
+    max-width: 90%;
+}

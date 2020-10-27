@@ -5,4 +5,8 @@
     e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
     })();
 
-    
+    (function(){
+        var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+        i.src = "https://cdn.curator.io/published/b5ac86ba-eac5-4016-af9c-e3e38db05d30.js";
+        e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+        })();
