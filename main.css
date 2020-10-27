@@ -9,6 +9,7 @@ html {
     font-family: sans-serif;
     background-image: url(img/pattern-bg.jpg);
     background-size: 100%;
+    overflow: hidden;
 
 }
 
@@ -120,9 +121,44 @@ body {
 }
 
 .featuredfeed-container {
-    border: 1px solid green;
+    background-image: url(img/featuredgal_bg.png);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
     position: absolute;
-    bottom: 0;
+    bottom: -1.55em;
     width: 100%;
+    padding-top: 2em;
 
+}
+
+.whatscooking-linkcontainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 .5em 0;
+}
+
+.whatscooking-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: .5em;
+    color: #a2ce4a;
+}
+
+.cooking-arrow {
+    background-image: url(img/arrow-sprite);
+    background-size: 70%;
+    width: 5%;
+    height: 0;
+    padding-bottom: 2.75%;
+    background-repeat: no-repeat;
+}
+
+.whatscooking-link:hover {
+    color: #faa950;
+}
+
+.cooking-arrow:hover {
+    background-position-y: 100%;
 }
