@@ -155,10 +155,3 @@ body {
     background-repeat: no-repeat;
 }
 
-.whatscooking-link:hover {
-    color: #faa950;
-}
-
-.cooking-arrow:hover {
-    background-position-y: 100%;
-}
