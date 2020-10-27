@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'chewy_caramel';
+    src: url('fonts/chewy_caramel-webfont.woff2') format('woff2'),
+         url('fonts/chewy_caramel-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 *, *:after, *:before {
     margin: 0;
     padding: 0;
@@ -10,6 +20,8 @@ html {
     background-image: url(img/pattern-bg.jpg);
     background-size: 100%;
     overflow: hidden;
+    font-family: 'chewy_caramel', Arial, Helvetica, sans-serif;
+
 
 }
 
@@ -144,6 +156,7 @@ body {
     justify-content: center;
     padding-right: .5em;
     color: #a2ce4a;
+
 }
 
 .cooking-arrow {
