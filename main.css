@@ -152,7 +152,7 @@ body {
     position: absolute;
     bottom: -1.55em;
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1em;
 
 }
 
@@ -178,7 +178,7 @@ body {
 
 .whatscooking-link a {
     text-decoration: none;
-    color: #a2ce4a;
+    color: #fff;
 }
 
 .whatscooking-link a:hover {
