@@ -7,6 +7,18 @@
 
 }
 
+@font-face {
+    font-family: 'toawc_arrow';
+    src: url('fonts/toawc_arrow.eot?96303263');
+    src: url('fonts/toawc_arrow.eot?96303263#iefix') format('embedded-opentype'),
+         url('fonts/toawc_arrow.woff2?96303263') format('woff2'),
+         url('fonts/toawc_arrow.woff?96303263') format('woff'),
+         url('fonts/toawc_arrow.ttf?96303263') format('truetype'),
+         url('fonts/toawc_arrow.svg?96303263#toawc_arrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 
 *, *:after, *:before {
     margin: 0;
@@ -147,7 +159,7 @@ body {
 .whatscooking-linkcontainer {
     display: flex;
     justify-content: flex-end;
-    padding: 0 0 .5em 0;
+    padding: .5em
 }
 
 .whatscooking-link {
@@ -156,15 +168,19 @@ body {
     justify-content: center;
     padding-right: .5em;
     color: #a2ce4a;
+    font-size: 1.5em;
 
 }
 
-.cooking-arrow {
-    background-image: url(img/arrow-sprite);
-    background-size: 70%;
-    width: 5%;
-    height: 0;
-    padding-bottom: 2.75%;
-    background-repeat: no-repeat;
+.arrow {
+    font-family: 'toawc_arrow';
 }
 
+.whatscooking-link a {
+    text-decoration: none;
+    color: #a2ce4a;
+}
+
+.whatscooking-link a:hover {
+    color: #faa950;
+}
