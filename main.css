@@ -23,18 +23,17 @@
 *, *:after, *:before {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-    box-sizing: border-box;
     height: 100%;
     font-family: sans-serif;
     background-image: url(img/pattern-bg.jpg);
     background-size: 100%;
     overflow: hidden;
     font-family: 'chewy_caramel', Arial, Helvetica, sans-serif;
-
-
+    color: #444;
 }
 
 body {
@@ -45,6 +44,10 @@ body {
 .content-container {
     min-height: 100%;
     position: relative;
+}
+
+nav {
+    margin-bottom: 0;
 }
 
 .top-nav {
@@ -94,7 +97,6 @@ body {
     height: 0;
     background-position: 0 0;
     background-size: 100%;
-    display:block;
     background-repeat: no-repeat;
 }
 
@@ -135,14 +137,38 @@ body {
 
 .name-img {
     width: 70%;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 10%;
-    display: block;
 }
 
 .active {
     background-position-y: 100%;
 }
+
+
+
+.hometext-container {
+    margin: 11em auto;
+    background-image: url(img/home-textbox.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 38em;
+    height: 16em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.hometext-container h2 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0 2em;
+}
+
+
+
 
 .featuredfeed-container {
     background-image: url(img/featuredgal_bg.png);
@@ -190,7 +216,6 @@ body {
 .whatscooking-text {
     margin-top: 6.5em;
     text-align: center;
-    color: #444;
 }
 
 .whatscooking-text h2 {
