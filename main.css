@@ -67,27 +67,27 @@ nav {
 }
 
 .about-full {
-    background-image: url(img/about-fullsprite.png);
-    padding-bottom: 55.1%;
+    background-image: url(img/about-sprite.png);
+    padding-bottom: 30%;
 
 }
 
 .buy-full {
-    background-image: url(img/buy-fullsprite);
-    padding-bottom: 55.15%;
+    background-image: url(img/buy-sprite.png);
+    padding-bottom: 30%;
 
 }
 
 .inspiration-full {
-    background-image: url(img/inspiration-fullsprite);
-    padding-bottom: 56.85%;
+    background-image: url(img/inspiration-sprite.png);
+    padding-bottom: 30%;
 
 
 }
 
 .cooking-full {
-    background-image: url(img/cooking-fullsprite);
-    padding-bottom: 57.3%;
+    background-image: url(img/cooking-sprite.png);
+    padding-bottom: 30%;
 
 }
 
@@ -101,7 +101,7 @@ nav {
 }
 
 .nav-link:hover {
-    background-position-y: 100%;
+    background-position-y: 50%;
 }
 
 .logo-img {
