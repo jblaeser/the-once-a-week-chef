@@ -10,3 +10,16 @@
         i.src = "https://cdn.curator.io/published/b5ac86ba-eac5-4016-af9c-e3e38db05d30.js";
         e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
         })();
+
+
+
+var elem = document.querySelector('.main-carousel');
+var flkty = new Flickity( elem, {
+    // options
+    cellAlign: 'center',
+    adaptiveHeight: true,
+    wrapAround: true,
+    percentPosition: false,
+    resize: true,
+    });
+        
