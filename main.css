@@ -104,36 +104,6 @@ nav {
     background-position-y: 50%;
 }
 
-.logo-img {
-    width: 100%;
-    padding-top: 40%;
-}
-
-
-.about-small {
-    background-image: url(img/about-smallsprite);
-    padding-bottom: 18.25%;
-
-}
-
-.buy-small {
-    background-image: url(img/buy-smallsprite);
-    padding-bottom: 19.4%;
-
-}
-
-.inspiration-small {
-    background-image: url(img/inspiration-smallsprite);
-    padding-bottom: 19.4%;
-
-
-}
-
-.cooking-small {
-    background-image: url(img/cooking-smallsprite);
-    padding-bottom: 18.5%;
-
-}
 
 .name-img {
     width: 70%;
@@ -149,7 +119,7 @@ nav {
 
 
 .hometext-container {
-    margin: 11em auto;
+    margin: 9em auto;
     background-image: url(img/home-textbox.png);
     background-repeat: no-repeat;
     background-position: center;
