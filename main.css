@@ -182,6 +182,29 @@ nav {
     color: #faa950;
 }
 
+
+/*about page*/
+
+.abouttext-container {
+    margin: 9em auto;
+    background-image: url(img/about-textbox.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 55em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.abouttext-container p {
+    font-size: 2em;
+    padding: 0 2em;
+}
+
+
 /*whats cooking page*/
 
 .whatscooking-text {
