@@ -34,8 +34,6 @@ function checkFilled() {
     for (i = 0; i < inputVal.length; i++) {
         if (inputVal[i].value.length !== 0) {
             inputVal[i].id = 'filled'+(i+1);
-            console.log(inputVal[i].id)
-
         }    
 
     }
