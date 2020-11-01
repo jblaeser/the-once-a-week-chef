@@ -22,3 +22,28 @@ var flkty = new Flickity( elem, {
     percentPosition: false,
     resize: true,
     });
+
+
+
+var inputVal = document.getElementsByClassName("buy-inputs");
+
+
+function checkFilled() {
+    var inputVal = document.getElementsByClassName("buy-inputs");
+    var i;
+    for (i = 0; i < inputVal.length; i++) {
+        if (inputVal[i].value.length !== 0) {
+            inputVal[i].id = 'filled'+(i+1);
+            console.log(inputVal[i].id)
+
+        }    
+
+    }
+
+    }
+
+    inputVal[0].addEventListener("keyup", checkFilled);
+    inputVal[1].addEventListener("keyup", checkFilled);
+
+
+   

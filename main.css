@@ -291,6 +291,14 @@ input:focus {
 
 }
 
+#filled1 {
+    background-image: url(img/inputbg1-hover.png);
+}
+
+#filled2 {
+    background-image: url(img/inputbg2-hover.png);
+}
+
 .email-input:focus {
     background-image: url(img/inputbg2-hover.png);
 }
