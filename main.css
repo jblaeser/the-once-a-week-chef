@@ -257,6 +257,58 @@ nav {
 }
 
 
+input {
+    margin: .25em;
+    font-family: 'chewy_caramel', sans-serif;
+    font-size: 1.5em;
+    height: 3rem;
+    width: 10rem;
+    padding: .5em;
+    border: hidden;
+
+}
+
+.name-input {
+    background-image: url(img/inputbg1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+input:focus {
+    border:none;
+    outline: none;
+}
+
+.name-input:focus {
+    background-image: url(img/inputbg1-hover.png);
+}
+
+.email-input {
+    background-image: url(img/inputbg2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.email-input:focus {
+    background-image: url(img/inputbg2-hover.png);
+}
+
+.submit-button {
+    border: hidden;
+    background-image: url(img/submitbutton-bg.png);
+    background-size: 100% 100%;
+    background-color: #fff;
+    font-family: 'chewy_caramel', sans-serif;
+    color: #fff;
+    font-size: 2em;
+    height: 3.5rem;
+    width: 8rem;
+    cursor: pointer;
+}
+
+
 /*whats cooking page*/
 
 .whatscooking-text {
