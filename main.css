@@ -251,6 +251,12 @@ nav {
     padding: 0 2em;
 }
 
+
+.buy-form {
+    margin: 0 auto;
+}
+
+
 /*whats cooking page*/
 
 .whatscooking-text {
@@ -270,4 +276,6 @@ nav {
     margin: 1.2em auto;
     max-width: 90%;
 }
+
+
 
