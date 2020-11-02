@@ -190,9 +190,9 @@ nav {
     background-image: url(img/about-textbox.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    width: 55em;
-    height: 30em;
+    background-size: 100% 100%;
+    width: 75%;
+    height: 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,8 +200,8 @@ nav {
 
 
 .abouttext-container p {
-    font-size: 2em;
-    padding: 0 2em;
+    font-size: 1.65em;
+    padding: .75em 3em 0 3em;
 }
 
 
@@ -247,13 +247,13 @@ nav {
 
 
 .buytext-container p {
-    font-size: 2em;
-    padding: 0 2em;
+    font-size: 1.75em;
+    padding: .75em 2em 0 2em;
 }
 
 
 .buy-form {
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 
