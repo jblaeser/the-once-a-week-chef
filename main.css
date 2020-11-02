@@ -317,6 +317,7 @@ input:focus {
     transition: all 0.5s;
     display: inline-block;
     position: relative;
+    overflow: hidden;
 }
 
 .submit-span {
