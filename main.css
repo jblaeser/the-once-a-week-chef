@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'chewy_caramel';
-    src: url('fonts/chewy_caramel-webfont.woff2') format('woff2'),
-         url('fonts/chewy_caramel-webfont.woff') format('woff');
+    font-family: 'gelpen';
+    src: url('fonts/gelpenuprightlight-webfont.woff2') format('woff2'),
+         url('fonts/gelpenuprightlight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -32,7 +32,7 @@ html {
     background-image: url(img/pattern-bg.jpg);
     background-size: 100%;
     overflow: hidden;
-    font-family: 'chewy_caramel', Arial, Helvetica, sans-serif;
+    font-family: 'gelpen', Arial, Helvetica, sans-serif;
     color: #444;
 }
 
@@ -133,9 +133,9 @@ nav {
 
 
 .hometext-container h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
-    padding: 0 2em;
+    padding: 0 3.1em;
 }
 
 
@@ -165,7 +165,7 @@ nav {
     justify-content: center;
     padding-right: .5em;
     color: #a2ce4a;
-    font-size: 1.5em;
+    font-size: 1.4em;
 
 }
 
@@ -200,7 +200,7 @@ nav {
 
 
 .abouttext-container p {
-    font-size: 1.65em;
+    font-size: 1.45em;
     padding: .75em 3em 0 3em;
 }
 
@@ -247,7 +247,7 @@ nav {
 
 
 .buytext-container p {
-    font-size: 1.75em;
+    font-size: 1.4em;
     padding: .75em 2em 0 2em;
 }
 
@@ -257,15 +257,15 @@ nav {
 }
 
 .thank-you {
-    font-size: 2.25em;
+    font-size: 2em;
     color: #a2ce4a;
 }
 
 
 input {
     margin: .25em;
-    font-family: 'chewy_caramel', sans-serif;
-    font-size: 1.5em;
+    font-family: 'gelpen', sans-serif;
+    font-size: 1.4em;
     height: 3rem;
     width: 10rem;
     padding: .5em;
@@ -313,9 +313,9 @@ input:focus {
     background-image: url(img/submitbutton-bg.png);
     background-size: 100% 100%;
     background-color: #fff;
-    font-family: 'chewy_caramel', sans-serif;
+    font-family: 'gelpen', sans-serif;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.7em;
     height: 3.5rem;
     width: 8rem;
     cursor: pointer;
@@ -361,11 +361,11 @@ input:focus {
 }
 
 .whatscooking-text h2 {
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 .whatscooking-text h4 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .gallery-container {
