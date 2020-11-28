@@ -1,3 +1,32 @@
+var currentDate = new Date();
+var currentMonth = currentDate.getMonth()+1;
+var currentDay;
+
+
+currentDay = ('0' + currentDate.getDate()).slice(-2)
+
+concatDate = currentMonth+currentDay
+
+
+var inspirationData = inspiration;
+
+document.addEventListener("click", function(){
+
+    console.log(inspirationData[47].week);
+  });
+
+
+  var i;
+for (i = 0; i < inspirationData.length; i++) {
+    if (concatDate >= inspirationData[i].datebeginning && concatDate <= inspirationData[i].dateend) {
+        console.log(inspirationData[i].week)
+        document.getElementById('week-name').innerHTML = inspirationData[i].week;
+        document.getElementById('suggestions-list').innerHTML = inspirationData[i].suggestions
+    }
+  }
+
+
+
 // curator-feed-homepagefeatured-layout
 (function(){
     var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
@@ -44,4 +73,3 @@ function checkFilled() {
     inputVal[1].addEventListener("keyup", checkFilled);
 
 
-   

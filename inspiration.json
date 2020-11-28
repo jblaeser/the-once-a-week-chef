@@ -1,0 +1,167 @@
+inspiration = '[
+    {
+        "week": "1: Used to Dislike"
+    },
+    {
+        "week": "2: Vegan"
+    },
+    {
+        "week": "3: Spicy"
+    },
+    {
+        "week": "4: Fusion"
+    },
+    {
+        "week": "5: Crunchy"
+    },
+    {
+        "week": "6: Hot Dish"
+    },
+    {
+        "week": "7: Chocolate"
+    },
+    {
+        "week": "8: Caribbean"
+    },
+    {
+        "week": "9: Movie, Book, or TV Inspired"
+    },
+    {
+        "week": "10: At Home Takeout"
+    },
+    {
+        "week": "11: Irish"
+    },
+    {
+        "week": "12: Eggs"
+    },
+    {
+        "week": "13: Matzah"
+    },
+    {
+        "week": "14: Caramelized"
+    },
+    {
+        "week": "15: Sandwiches"
+    },
+    {
+        "week": "16: Dim Sum"
+    },
+    {
+        "week": "17: Copycat Recipes"
+    },
+    {
+        "week": "18: Tex-Mex"
+    },
+    {
+        "week": "19: Knifework"
+    },
+    {
+        "week": "20: Noodles"
+    },
+    {
+        "week": "21: Mystery Ingredient"
+    },
+    {
+        "week": "22: Your Heritage"
+    },
+    {
+        "week": "23: Street Food"
+    },
+    {
+        "week": "24: Filipino"
+    },
+    {
+        "week": "25: Marinated"
+    },
+    {
+        "week": "26: Finger Foods"
+    },
+    {
+        "week": "27: Picnic"
+    },
+    {
+        "week": "28: Inspired by a Color"
+    },
+    {
+        "week": "29: Southern"
+    },
+    {
+        "week": "30: Salad"
+    },
+    {
+        "week": "31: Garlic"
+    },
+    {
+        "week": "32: Corn"
+    },
+    {
+        "week": "33: Local Ingredients"
+    },
+    {
+        "week": "34: Pickled"
+    },
+    {
+        "week": "35: On a Stick"
+    },
+    {
+        "week": "36: Burgers"
+    },
+    {
+        "week": "37: Julia Child"
+    },
+    {
+        "week": "38: Honey"
+    },
+    {
+        "week": "39: Chickpeas"
+    },
+    {
+        "week": "40: Japanese"
+    },
+    {
+        "week": "41: Breakfast"
+    },
+    {
+        "week": "42: Deep Fried"
+    },
+    {
+        "week": "43: Potatoes"
+    },
+    {
+        "week": "44: Squash"
+    },
+    {
+        "week": "45: Gordon Ramsay"
+    },
+    {
+        "week": "46: Soup"
+    },
+    {
+        "week": "47: Cranberries"
+    },
+    {
+        "week": "48: Leftovers",
+        "datebeginning": 1126,
+        "dateend": 1202,
+        "recipetitle": "Thanksgiving Egg Rolls",
+        "ingredients": "<li>6 Eggroll wrappers</li>\n<li>1 c. Leftover Turkey, Shredded</li>\n<li>1 c. Leftover Mashed Potatoes</li>\n<li>1 c. Leftover Stuffing</li>\n<li>1 c. Any Other Leftovers (Corn, Carrots, Green Bean Casserole)</li>\n<li>Vegetable Oil</li>\n<li>1/3 c. Leftover Gravy and/or Cranberry Sauce, for Dipping</li>",
+        "directions": "<li>Place an egg roll wrapper on a clean surface in a diamond shape. Add a couple tablespoons of mashed potatoes, then stuffing, then any other leftovers, then turkey. Fold up bottom half and tightly fold in sides. Gently roll, then seal fold with a couple drops of water. Repeat with remaining leftovers.</li> \n<li>In a large skillet over medium heat, heat remaining oil (it should reach 1\" up the side of pan) until it starts to bubble. Add egg rolls and fry until golden, 1 minute per side. Transfer to a paper towel-lined plate to cool slightly.</li> \n<li>Serve with heated gravy and/or cranberry sauce.</li>",
+        "suggestiontitle": "Some Things You Could Make",
+        "suggestions": "<li>Thanksgiving Crunchwrap Supreme</li>\n<li>Mashed Potato Pizza</li>\n<li>An Epic Turkey Sandwich</li>\n<li>Mashed Potato Pancakes</li>\n<li>Turkey Banh Mi</li>\n<li>Turkey Noodle Soup</li>\n<li>Stuffing Waffles</li>\n<li>Pumpkin PIe Milkshake</li>"
+    },
+    {
+        "week": "49: $10 or Less",
+        "suggestiontitle": "Some Ingredients You Could Use",
+        "suggestions": "<li>Rice</li>\n<li>Beans</li>\n<li>Eggs</li>\n<li>Tortillas</li>\n<li>Pasta</li>\n<li>Chicken Breast</li>\n<li>Oatmeal</li>\n<li>Frozen Vegetables</li>"
+    },
+    {
+        "week": "50: Stuffed"
+    },
+    {
+        "week": "51: Pies"
+    },
+    {
+        "week": "52: Fancy Ingredient"
+    }
+]'
