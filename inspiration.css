@@ -31,7 +31,6 @@ html {
     font-family: sans-serif;
     background-image: url(img/pattern-bg.jpg);
     background-size: 100%;
-    overflow: hidden;
     font-family: 'gelpen', Arial, Helvetica, sans-serif;
     color: #444;
 }
@@ -393,7 +392,7 @@ input:focus {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
-    padding: 2em 5em;
+    padding: 3em 5em 4em 5em;
     margin: 1em 1em 1em 2em;
 }
 
