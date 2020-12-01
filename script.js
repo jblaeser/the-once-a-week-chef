@@ -14,15 +14,18 @@
 
 
 
-var elem = document.querySelector('.main-carousel');
-var flkty = new Flickity( elem, {
-    // options
-    cellAlign: 'center',
-    adaptiveHeight: true,
-    wrapAround: true,
-    percentPosition: false,
-    resize: true,
-    });
+        var elem = document.querySelectorAll('.main-carousel');
+        for (var i=0, len = elem.length; i < len; i++) {
+            var carouselElem = elem[i];
+            new Flickity (carouselElem, {
+                cellAlign: 'center',
+                adaptiveHeight: true,
+                wrapAround: true,
+                percentPosition: false,
+                resize: true,
+            })};
+
+
 
 
 
