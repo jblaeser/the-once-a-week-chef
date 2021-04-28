@@ -145,7 +145,7 @@ inspiration = [
         "dateend": 415,
         "recipetitle": "English Ploughmans Sandwich",
         "ingredients": "<li>2 Large Crusty Rolls or 1/2 Baguette</li>\n<li>2 oz. Fresh Butter</li>\n<li>8 oz. Red Leicester Cheese</li>\n<li>Pickled Onions</li>\n<li>4 T. Onion Jam or Other Chutney</li>\n<li>2 Tomatoes</li>\n<li>4 Spring Onions</li>\n<li>Salt and Pepper</li>",
-        "directions": "<li>Slice the bread in half lengthwise and butter one side.</li>\n<li>Spread the onion jam or chutney on the other side</li>\n<li>Assemble the sandwiches with 4 oz. of cheese each, pickled onions, sliced tomatoes, and spring onions.</li>\n<li>Season with a little salt and pepper.</li>",
+        "directions": "<li>Slice the bread in half lengthwise and butter one side.</li>\n<li>Spread the onion jam or chutney on the other side.</li>\n<li>Assemble the sandwiches with 4 oz. of cheese each, pickled onions, sliced tomatoes, and spring onions.</li>\n<li>Season with a little salt and pepper.</li>",
         "suggestiontitle": "Some Classic Sandwich Combos",
         "suggestions": "<li>Tuna Melt</li>\n<li>French Dip</li>\n<li>Monte Cristo</li>\n<li>BLT</li>\n<li>Chicken Salad</li>\n<li>Muffaletta</li>\n<li>Grilled Cheese</li>\n<li>Banh Mi</li>\n<li>Po Boy</li>\n<li>Cuban</li>\n<li>Bagel, Egg, and Cheese</li>"
     },
@@ -173,13 +173,18 @@ inspiration = [
         "week": "18: Tex-Mex",
         "datebeginning": 430,
         "dateend": 506,
-        "suggestiontitle": "Some Tex-Mex Traditions to Try"
+        "recipetitle": "Taco Soup",
+        "ingredients": "<li>1 T. Canola Oil</li>\n<li>1 Large Diced Onion</li>\n<li>2 Cloves Minced Garlic</li>\n<li>2 Jalapenos, 1 Minced and 1 Sliced</li>\n<li>1 T. Tomato Paste</li>\n<li>2 t. Chili Powder</li>\n<li>2 t. Ground Cumin</li>\n<li>1 28 oz. Can Diced Tomatoes</li>\n<li>1 15 oz. Can Black Beans, Rinsed</li>\n<li>4 c. Chicken or Vegetable Broth</li>\n<li>1 c. Shredded Cheddar, Plus More for Garnish</li>\n<li>Fritos and Sour Cream for Serving</li>",
+        "directions": "<li>In a large stockpot over medium-high heat, heat oil. Cook onion until tender and golden, 8 minutes, then add garlic and minced jalapeño and cook until fragrant, 2 minutes more.</li>\n<li>Add tomato paste, chili powder, and cumin and cook, stirring, 1 minute more. Add canned tomatoes and black beans, stirring to combine, then add broth.</li>\n<li>Increase heat to a simmer and let cook, 15 minutes, then add cheddar and stir until melted.</li>\n<li>Ladle into bowls and top with Fritos, sour cream, sliced jalapeño, and remaining cheddar.</li>",
+        "suggestiontitle": "Some Tex-Mex Traditions to Try",
+        "suggestions": "<li>Enchiladas</li>\n<li>Fajitas</li>\n<li>Taco Dip</li>\n<li>Chili</li>\n<li>Quesadillas</li>\n<li>Chimichangas</li>\n<li>Taco Salad</li>\n<li>Stuffed Peppers</li>\n<li>Taquitos</li>"
     },
     {
         "week": "19: Knifework",
         "datebeginning": 507,
         "dateend": 513,
-        "suggestiontitle": "Some Things That Require Fancy Knifework"
+        "suggestiontitle": "Some Things That Require Fancy Knifework",
+        "suggestions": "<li>Ratatouille</li>\n<li>Salsa Fresca</li>\n<li>Greek Salad</li>\n<li>Poke Bowl</li>\n<li>"
     },
     {
         "week": "20: Noodles",
